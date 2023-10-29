@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    187668,       3944]
-NotebookOptionsPosition[    140351,       3073]
-NotebookOutlinePosition[    186731,       3929]
-CellTagsIndexPosition[    186688,       3926]
+NotebookDataLength[    190790,       4006]
+NotebookOptionsPosition[    143245,       3131]
+NotebookOutlinePosition[    189625,       3987]
+CellTagsIndexPosition[    189582,       3984]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -3066,6 +3066,64 @@ Cell[BoxData[
   3.907599263273684*^9, 3.9075993393730583`*^9, {3.907599371781993*^9, 
    3.9075993951431227`*^9}, 3.907599438183107*^9, 3.907599496623271*^9},
  CellLabel->"Out[38]=",ExpressionUUID->"ecfb74e7-b55f-4dd5-b3b9-58873cad8a1f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  TemplateBox[<|"query" -> "Montreal", "boxes" -> TemplateBox[{"\"Montreal\"", 
+       RowBox[{"Entity", "[", 
+         RowBox[{"\"City\"", ",", 
+           RowBox[{"{", 
+             RowBox[{"\"Montreal\"", ",", "\"Quebec\"", ",", "\"Canada\""}], 
+             "}"}]}], "]"}], 
+       "\"Entity[\\\"City\\\", {\\\"Montreal\\\", \\\"Quebec\\\", \
+\\\"Canada\\\"}]\"", "\"city\""}, "Entity"], 
+    "allassumptions" -> {{
+      "type" -> "SubCategory", "word" -> "Montreal", "template" -> 
+       "Assuming Montreal (Canada)${separator}Use ${desc} or ${pulldown} \
+instead", "count" -> "6", "pulldown" -> "true", "pulldownlabel" -> "more >>", 
+       "pulldownlength" -> "4", "default" -> 
+       "{\"DPClash\", \"CityE\", \"Montreal\"} -> {{\"Montreal\", \"Quebec\", \
+\"Canada\"}, \"dflt\"}", 
+       "Values" -> {{
+         "name" -> "{Montreal, Quebec, Canada}", "desc" -> 
+          "Montreal (Canada)", "input" -> 
+          "{\"DPClash\", \"CityE\", \"Montreal\"} -> {{\"Montreal\", \"Quebec\
+\", \"Canada\"}}"}, {
+         "name" -> "{Montreal, Wisconsin, UnitedStates}", "desc" -> 
+          "Montreal (United States)", "input" -> 
+          "{\"DPClash\", \"CityE\", \"Montreal\"} -> {{\"Montreal\", \
+\"Wisconsin\", \"UnitedStates\"}}"}, {
+         "name" -> "{Montreal, LanguedocRoussillon, France}", "desc" -> 
+          "Montr\[EAcute]al (Occitania, France)", "input" -> 
+          "{\"DPClash\", \"CityE\", \"Montreal\"} -> {{\"Montreal\", \
+\"LanguedocRoussillon\", \"France\"}}"}, {
+         "name" -> "{Montreal, MidiPyrenees, France}", "desc" -> 
+          "Montr\[EAcute]al (Occitania, France)", "input" -> 
+          "{\"DPClash\", \"CityE\", \"Montreal\"} -> {{\"Montreal\", \
+\"MidiPyrenees\", \"France\"}}"}, {
+         "name" -> "{Montreal, RhoneAlpes, France}", "desc" -> 
+          "Montr\[EAcute]al (Auvergne-Rh\[OHat]ne-Alpes, France)", "input" -> 
+          "{\"DPClash\", \"CityE\", \"Montreal\"} -> {{\"Montreal\", \
+\"RhoneAlpes\", \"France\"}}"}, {
+         "name" -> "{Montreal, Bourgogne, France}", "desc" -> 
+          "Montr\[EAcute]al (Bourgogne-Franche-Comt\[EAcute], France)", 
+          "input" -> 
+          "{\"DPClash\", \"CityE\", \"Montreal\"} -> {{\"Montreal\", \
+\"Bourgogne\", \"France\"}}"}}}}, "assumptions" -> {}, "open" -> {1, 2}, 
+    "querystate" -> {
+     "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+      0.532812`6.178118990955318, "Messages" -> {}}, "contextinfo" -> 
+    Automatic, "version" -> 5|>,
+   "LinguisticAssistantTemplate"], "//", "Head"}]], "Input",
+ CellChangeTimes->{{3.907600248750225*^9, 3.907600259082107*^9}},
+ CellLabel->"In[39]:=",ExpressionUUID->"0e407dcf-d606-4665-adbd-800140208cd3"],
+
+Cell[BoxData["Entity"], "Output",
+ CellChangeTimes->{3.9076002599835052`*^9},
+ CellLabel->"Out[39]=",ExpressionUUID->"b7e0fdcb-95e4-4328-98d7-097a2213040f"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -3941,7 +3999,11 @@ Cell[CellGroupData[{
 Cell[14810, 323, 699, 10, 54, "Subsection",ExpressionUUID->"bf995b7a-4edf-4048-a912-1ed68c91688a"],
 Cell[CellGroupData[{
 Cell[15534, 337, 1541, 26, 40, "Input",ExpressionUUID->"dca9d73d-e649-447e-969c-af96b5148cb8"],
-Cell[17078, 365, 123221, 2702, 537, "Output",ExpressionUUID->"ecfb74e7-b55f-4dd5-b3b9-58873cad8a1f"]
+Cell[17078, 365, 123221, 2702, 514, "Output",ExpressionUUID->"ecfb74e7-b55f-4dd5-b3b9-58873cad8a1f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[140336, 3072, 2698, 49, 37, "Input",ExpressionUUID->"0e407dcf-d606-4665-adbd-800140208cd3"],
+Cell[143037, 3123, 156, 2, 57, "Output",ExpressionUUID->"b7e0fdcb-95e4-4328-98d7-097a2213040f"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
