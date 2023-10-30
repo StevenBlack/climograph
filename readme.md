@@ -260,7 +260,9 @@ min      0.44" nohref="" />
 </map>
 </p>
 
+<p class='Text' style='border-left: 0px;border-right: 0px;border-top: 1px;border-bottom: 0px;border-style: solid;border-color: #BFBFBF;'>
  **Example 2**: This call uses options to set the background color, and normalizes the vertical ranges for both the temperature and precipitation plots.
+</p>
 
 <p class="Input">
  <img src="HTMLFiles/climograph_7.png" alt="climograph_7.png" width="327" height="119" style="vertical-align:middle" />
@@ -704,7 +706,9 @@ min      -3.82" nohref="" />
 </map>
 </p>
 
+<p class='Text' style='border-left: 0px;border-right: 0px;border-top: 1px;border-bottom: 0px;border-style: solid;border-color: #BFBFBF;'>
  **Example 3**: This call uses options to omit the lines joining temperature and precipitation mean values.
+</p>
 
 <p class="Input">
  <img src="HTMLFiles/climograph_9.png" alt="climograph_9.png" width="623" height="27" style="vertical-align:middle" />
@@ -932,7 +936,9 @@ min      -9.47" nohref="" />
 </map>
 </p>
 
+<p class='Text' style='border-left: 0px;border-right: 0px;border-top: 1px;border-bottom: 0px;border-style: solid;border-color: #BFBFBF;'>
  **Example 4**: This call uses options to not show an outer frame.
+</p>
 
 <p class="Input">
  <img src="HTMLFiles/climograph_11.png" alt="climograph_11.png" width="305" height="27" style="vertical-align:middle" />
@@ -1160,7 +1166,9 @@ min      3.37" nohref="" />
 </map>
 </p>
 
+<p class='Text' style='border-left: 0px;border-right: 0px;border-top: 1px;border-bottom: 0px;border-style: solid;border-color: #BFBFBF;'>
  **Example 5**: This call uses options to show the inner frame with a particular style.
+</p>
 
 <p class="Input">
  <img src="HTMLFiles/climograph_13.png" alt="climograph_13.png" width="389" height="124" style="vertical-align:middle" />
