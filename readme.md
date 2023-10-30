@@ -20,14 +20,18 @@
  <img src="HTMLFiles/climograph_2.gif" alt="climograph_2.gif" width="441" height="544" style="vertical-align:middle" />
 </p>
 
- **Example: **You can pass a list of&nbsp;&nbsp;location Entities and get a list of their climographs.
+<p class="Output">
+ <img src="HTMLFiles/climograph_3.gif" alt="climograph_3.gif" width="441" height="544" style="vertical-align:middle" />
+</p>
 
- <span><span><img src="HTMLFiles/climograph_3.gif" alt="climograph_3.gif" width="811" height="635" style="vertical-align:middle" /></span></span>
+ **Example: **You can pass a list of location Entities and get a list of their climographs.
+
+ <span><span><img src="HTMLFiles/climograph_4.gif" alt="climograph_4.gif" width="811" height="635" style="vertical-align:middle" /></span></span>
 
 ## The Code
 
 <p class="Input">
- <img src="HTMLFiles/climograph_4.gif" alt="climograph_4.gif" width="840" height="2055" style="vertical-align:middle" />
+ <img src="HTMLFiles/climograph_5.gif" alt="climograph_5.gif" width="840" height="2055" style="vertical-align:middle" />
 </p>
 
 ## Live Examples
@@ -35,12 +39,12 @@
  **Example 1**: This call with no options produces a default climograph.
 
 <p class="Input">
- <img src="HTMLFiles/climograph_5.png" alt="climograph_5.png" width="204" height="27" style="vertical-align:middle" />
+ <img src="HTMLFiles/climograph_6.png" alt="climograph_6.png" width="204" height="27" style="vertical-align:middle" />
 </p>
 
 <p class="Output">
- <img src="HTMLFiles/climograph_6.gif" alt="climograph_6.gif" width="360" height="489" style="vertical-align:middle;" usemap="#map_6" />
-<map name="map_6">
+ <img src="HTMLFiles/climograph_7.gif" alt="climograph_7.gif" width="360" height="489" style="vertical-align:middle;" usemap="#map_7" />
+<map name="map_7">
 <area shape="rect" coords="288,438,305,339" title="max      32.64
 
 75%      27.9016
@@ -260,17 +264,17 @@ min      0.44" nohref="" />
 </map>
 </p>
 
-<p class='Text' style='border-left: 0px;border-right: 0px;border-top: 1px;border-bottom: 0px;border-style: solid;border-color: #BFBFBF;'>
+ 
+
  **Example 2**: This call uses options to set the background color, and normalizes the vertical ranges for both the temperature and precipitation plots.
-</p>
 
 <p class="Input">
- <img src="HTMLFiles/climograph_7.png" alt="climograph_7.png" width="327" height="119" style="vertical-align:middle" />
+ <img src="HTMLFiles/climograph_8.png" alt="climograph_8.png" width="327" height="119" style="vertical-align:middle" />
 </p>
 
 <p class="Output">
- <img src="HTMLFiles/climograph_8.gif" alt="climograph_8.gif" width="749" height="491" style="vertical-align:middle;" usemap="#map_8" />
-<map name="map_8">
+ <img src="HTMLFiles/climograph_9.gif" alt="climograph_9.gif" width="749" height="491" style="vertical-align:middle;" usemap="#map_9" />
+<map name="map_9">
 <area shape="rect" coords="669,446,686,403" title="max      12.71
 
 75%      10.7001
@@ -706,17 +710,17 @@ min      -3.82" nohref="" />
 </map>
 </p>
 
-<p class='Text' style='border-left: 0px;border-right: 0px;border-top: 1px;border-bottom: 0px;border-style: solid;border-color: #BFBFBF;'>
+ 
+
  **Example 3**: This call uses options to omit the lines joining temperature and precipitation mean values.
-</p>
 
 <p class="Input">
- <img src="HTMLFiles/climograph_9.png" alt="climograph_9.png" width="623" height="27" style="vertical-align:middle" />
+ <img src="HTMLFiles/climograph_10.png" alt="climograph_10.png" width="623" height="27" style="vertical-align:middle" />
 </p>
 
 <p class="Output">
- <img src="HTMLFiles/climograph_10.gif" alt="climograph_10.gif" width="360" height="474" style="vertical-align:middle;" usemap="#map_10" />
-<map name="map_10">
+ <img src="HTMLFiles/climograph_11.gif" alt="climograph_11.gif" width="360" height="474" style="vertical-align:middle;" usemap="#map_11" />
+<map name="map_11">
 <area shape="rect" coords="283,423,300,358" title="max      11.58
 
 75%      9.33432
@@ -936,17 +940,17 @@ min      -9.47" nohref="" />
 </map>
 </p>
 
-<p class='Text' style='border-left: 0px;border-right: 0px;border-top: 1px;border-bottom: 0px;border-style: solid;border-color: #BFBFBF;'>
+ 
+
  **Example 4**: This call uses options to not show an outer frame.
-</p>
 
 <p class="Input">
- <img src="HTMLFiles/climograph_11.png" alt="climograph_11.png" width="305" height="27" style="vertical-align:middle" />
+ <img src="HTMLFiles/climograph_12.png" alt="climograph_12.png" width="305" height="27" style="vertical-align:middle" />
 </p>
 
 <p class="Output">
- <img src="HTMLFiles/climograph_12.gif" alt="climograph_12.gif" width="360" height="489" style="vertical-align:middle;" usemap="#map_12" />
-<map name="map_12">
+ <img src="HTMLFiles/climograph_13.gif" alt="climograph_13.gif" width="360" height="489" style="vertical-align:middle;" usemap="#map_13" />
+<map name="map_13">
 <area shape="rect" coords="288,437,305,363" title="max      26.87
 
 75%      22.346
@@ -1166,17 +1170,17 @@ min      3.37" nohref="" />
 </map>
 </p>
 
-<p class='Text' style='border-left: 0px;border-right: 0px;border-top: 1px;border-bottom: 0px;border-style: solid;border-color: #BFBFBF;'>
+ 
+
  **Example 5**: This call uses options to show the inner frame with a particular style.
-</p>
 
 <p class="Input">
- <img src="HTMLFiles/climograph_13.png" alt="climograph_13.png" width="389" height="124" style="vertical-align:middle" />
+ <img src="HTMLFiles/climograph_14.png" alt="climograph_14.png" width="389" height="124" style="vertical-align:middle" />
 </p>
 
 <p class="Output">
- <img src="HTMLFiles/climograph_14.gif" alt="climograph_14.gif" width="360" height="489" style="vertical-align:middle;" usemap="#map_14" />
-<map name="map_14">
+ <img src="HTMLFiles/climograph_15.gif" alt="climograph_15.gif" width="360" height="489" style="vertical-align:middle;" usemap="#map_15" />
+<map name="map_15">
 <area shape="rect" coords="288,438,305,409" title="max      14.52
 
 75%      12.1549
