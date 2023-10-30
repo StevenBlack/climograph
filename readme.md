@@ -12,9 +12,13 @@
 
  **Example: **You can pass a single location Entity and get its climograph.
 
+<p class="Input">
  <img src="HTMLFiles/climograph_1.png" alt="climograph_1.png" width="4" height="17" style="vertical-align:middle" />
+</p>
 
+<p class="Input">
  <img src="HTMLFiles/climograph_2.gif" alt="climograph_2.gif" width="441" height="544" style="vertical-align:middle" />
+</p>
 
  **Example: **You can pass a list of&nbsp;&nbsp;location Entities and get a list of their climographs.
 
@@ -22,13 +26,17 @@
 
 ## The Code
 
+<p class="Input">
  <img src="HTMLFiles/climograph_4.gif" alt="climograph_4.gif" width="840" height="2055" style="vertical-align:middle" />
+</p>
 
 ## Live Examples
 
  **Example 1**: This call with no options produces a default climograph.
 
+<p class="Input">
  <img src="HTMLFiles/climograph_5.png" alt="climograph_5.png" width="204" height="27" style="vertical-align:middle" />
+</p>
 
 <p class="Output">
  <img src="HTMLFiles/climograph_6.gif" alt="climograph_6.gif" width="360" height="489" style="vertical-align:middle;" usemap="#map_6" />
@@ -254,7 +262,9 @@ min      0.44" nohref="" />
 
  **Example 2**: This call uses options to set the background color, and normalizes the vertical ranges for both the temperature and precipitation plots.
 
+<p class="Input">
  <img src="HTMLFiles/climograph_7.png" alt="climograph_7.png" width="327" height="119" style="vertical-align:middle" />
+</p>
 
 <p class="Output">
  <img src="HTMLFiles/climograph_8.gif" alt="climograph_8.gif" width="749" height="491" style="vertical-align:middle;" usemap="#map_8" />
@@ -696,7 +706,9 @@ min      -3.82" nohref="" />
 
  **Example 3**: This call uses options to omit the lines joining temperature and precipitation mean values.
 
+<p class="Input">
  <img src="HTMLFiles/climograph_9.png" alt="climograph_9.png" width="623" height="27" style="vertical-align:middle" />
+</p>
 
 <p class="Output">
  <img src="HTMLFiles/climograph_10.gif" alt="climograph_10.gif" width="360" height="474" style="vertical-align:middle;" usemap="#map_10" />
@@ -922,7 +934,9 @@ min      -9.47" nohref="" />
 
  **Example 4**: This call uses options to not show an outer frame.
 
+<p class="Input">
  <img src="HTMLFiles/climograph_11.png" alt="climograph_11.png" width="305" height="27" style="vertical-align:middle" />
+</p>
 
 <p class="Output">
  <img src="HTMLFiles/climograph_12.gif" alt="climograph_12.gif" width="360" height="489" style="vertical-align:middle;" usemap="#map_12" />
@@ -1148,7 +1162,9 @@ min      3.37" nohref="" />
 
  **Example 5**: This call uses options to show the inner frame with a particular style.
 
+<p class="Input">
  <img src="HTMLFiles/climograph_13.png" alt="climograph_13.png" width="389" height="124" style="vertical-align:middle" />
+</p>
 
 <p class="Output">
  <img src="HTMLFiles/climograph_14.gif" alt="climograph_14.gif" width="360" height="489" style="vertical-align:middle;" usemap="#map_14" />
