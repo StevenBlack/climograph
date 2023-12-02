@@ -913,7 +913,7 @@ options are not valid, and are ignored: \>\"", " ", "\[IndentingNewLine]", "<>",
    3.908749297953718*^9, 3.90874940152136*^9}, {3.909008932600748*^9, 
    3.9090089741905203`*^9}, {3.909009004369877*^9, 3.90900901182518*^9}, {
    3.9090091457580557`*^9, 3.909009146887981*^9}},
- CellLabel->"In[155]:=",
+ CellLabel->"In[47]:=",
  CellID->898175679,ExpressionUUID->"67cb68eb-4502-45ce-9d93-3d883df1790a"]
 }, Open  ]],
 
@@ -993,12 +993,13 @@ Cell[BoxData[
  CellID->67839508,ExpressionUUID->"fcdd6b34-addd-4c4e-a767-99e538d878b6"],
 
 Cell[TextData[{
- "Generates the default climograph for the current",
- StyleBox[" $GeoLocation", "Code"],
+ "Generates the default climograph for the current ",
+ StyleBox["$GeoLocation", "Code"],
  "."
 }], "UsageDescription",
  CellChangeTimes->{{3.908750888715176*^9, 3.9087509109004087`*^9}, {
-  3.908750993992661*^9, 3.908750995578793*^9}},
+  3.908750993992661*^9, 3.908750995578793*^9}, {3.910480996775586*^9, 
+  3.910480997541191*^9}},
  CellTags->{"DefaultContent", "TabNext"},
  CellID->746063541,ExpressionUUID->"1dbf998c-c291-47b5-9666-b04ac1a8136a"]
 }, Open  ]],
@@ -1007,17 +1008,10 @@ Cell[CellGroupData[{
 
 Cell[BoxData[
  StyleBox[
-  RowBox[{"Climograph", "[", 
-   TemplateBox[{"\"Toronto\"", 
-     RowBox[{"Entity", "[", 
-       RowBox[{"\"City\"", ",", 
-         RowBox[{"{", 
-           RowBox[{"\"Toronto\"", ",", "\"Ontario\"", ",", "\"Canada\""}], 
-           "}"}]}], "]"}], 
-     "\"Entity[\\\"City\\\", {\\\"Toronto\\\", \\\"Ontario\\\", \
-\\\"Canada\\\"}]\"", "\"city\""},
-    "Entity"], "]"}], "Code"]], "UsageInputs",
- CellChangeTimes->{{3.908750942782507*^9, 3.908750955093875*^9}},
+  RowBox[{"Climograph", "[", "loc", "]"}], "Code"]], "UsageInputs",
+ CellChangeTimes->{{3.908750942782507*^9, 3.908750955093875*^9}, {
+  3.910480756163865*^9, 3.910480760057418*^9}, {3.910481009600396*^9, 
+  3.91048101054482*^9}},
  FontFamily->"Source Sans Pro",
  CellID->377701320,ExpressionUUID->"00d33382-6541-4b2b-a49f-e46edcd328e6"],
 
@@ -1034,32 +1028,12 @@ Cell[BoxData[
   RowBox[{"Climograph", "[", 
    RowBox[{"{", 
     RowBox[{
-     TemplateBox[{"\"New York City\"", 
-       RowBox[{"Entity", "[", 
-         RowBox[{"\"City\"", ",", 
-           RowBox[{"{", 
-             
-             RowBox[{"\"NewYork\"", ",", "\"NewYork\"", ",", 
-               "\"UnitedStates\""}], "}"}]}], "]"}], 
-       "\"Entity[\\\"City\\\", {\\\"NewYork\\\", \\\"NewYork\\\", \
-\\\"UnitedStates\\\"}]\"", "\"city\""},
-      "Entity"], ",", " ", 
-     TemplateBox[{"\"Paris\"", 
-       RowBox[{"Entity", "[", 
-         RowBox[{"\"City\"", ",", 
-           RowBox[{"{", 
-             RowBox[{"\"Paris\"", ",", "\"IleDeFrance\"", ",", "\"France\""}],
-              "}"}]}], "]"}], 
-       "\"Entity[\\\"City\\\", {\\\"Paris\\\", \\\"IleDeFrance\\\", \
-\\\"France\\\"}]\"", "\"city\""},
-      "Entity"], ",", " ", 
-     TemplateBox[{"\"Singapore\"", 
-       RowBox[{"Entity", "[", 
-         RowBox[{"\"Country\"", ",", "\"Singapore\""}], "]"}], 
-       "\"Entity[\\\"Country\\\", \\\"Singapore\\\"]\"", "\"country\""},
-      "Entity"]}], "}"}], "]"}], "Code"]], "UsageInputs",
+     RowBox[{"location_", "1"}], ",", " ", 
+     RowBox[{"location_", "2"}], ",", " ", 
+     RowBox[{"location_", "3"}]}], "}"}], "]"}], "Code"]], "UsageInputs",
  CellChangeTimes->{{3.908751003172401*^9, 3.908751044944688*^9}, {
-  3.9087511020039062`*^9, 3.9087511073365803`*^9}},
+  3.9087511020039062`*^9, 3.9087511073365803`*^9}, {3.910481017499136*^9, 
+  3.910481044598328*^9}},
  FontFamily->"Source Sans Pro",
  CellID->1867818905,ExpressionUUID->"0c013a41-2396-483b-a3b0-cd160a6a13d1"],
 
@@ -1067,13 +1041,7 @@ Cell["\<\
 Generates a list of default climographs for a list of locations\
 \>", "UsageDescription",
  CellChangeTimes->{{3.9087510622349653`*^9, 3.908751097627472*^9}},
- CellID->1082472913,ExpressionUUID->"3af46274-f388-43d2-95b9-350f38fc4d7b"],
-
-Cell["", "UsageDescription",
- CellID->42504583,ExpressionUUID->"8a29e831-5c70-4fa6-a2d9-e5e13166cf88"],
-
-Cell["", "UsageDescription",
- CellID->282219569,ExpressionUUID->"54f8d101-7cbd-490f-b7cb-f56dbfe4e54c"]
+ CellID->1082472913,ExpressionUUID->"3af46274-f388-43d2-95b9-350f38fc4d7b"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1308,7 +1276,7 @@ Cell[BoxData[
  RowBox[{"Climograph", "[", "]"}]], "Input",
  CellChangeTimes->{{3.9087512088797483`*^9, 3.908751213603846*^9}},
  CellTags->"DefaultContent",
- CellLabel->"In[1]:=",
+ CellLabel->"In[59]:=",
  CellID->298664010,ExpressionUUID->"e8f3e11d-3c45-4493-921e-cf58e136d595"],
 
 Cell[BoxData[
@@ -1318,7 +1286,7 @@ Cell[BoxData[
          InterpretationBox[Cell["Kingston",
            FontSize->20,
            FontWeight->Bold,ExpressionUUID->
-           "b7d156bd-653f-4825-b7ff-f6a90bf7c4d0"],
+           "c11b78b0-5493-4e59-8519-5fde06f25749"],
           TextCell["Kingston", {20, Bold}]]},
         {
          InterpretationBox[Cell["1980 - 2020",
@@ -1328,16 +1296,14 @@ Cell[BoxData[
            GraphicsColor->GrayLevel[0.5],
            FontSize->16,
            FontColor->GrayLevel[0.5],ExpressionUUID->
-           "507bc09a-f487-4688-990b-52e585aacf51"],
+           "30ecb968-7b8f-4554-92c8-cecc0380fa95"],
           TextCell["1980 - 2020", {16, 
             GrayLevel[0.5]}]]}
        },
        DefaultBaseStyle->"Column",
        GridBoxAlignment->{"Columns" -> {{Center}}},
        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
-      "Column"], {302.4, -27}, {Center, Center}, {576., 54},
-     BaseStyle->{Graphics3DBoxOptions -> {SphericalRegion -> False}}], 
-    InsetBox[
+      "Column"], {302.4, -27}, {Center, Center}, {576., 54}], InsetBox[
      GraphicsBox[{{}, {InsetBox[
          GraphicsBox[{
            {Opacity[0], 
@@ -1381,9 +1347,9 @@ Cell[BoxData[
                     1.175635978381571, -0.32}, {
                     0.8243640216184289, -0.32}}}]}, {}}]},
                   
-                  ImageSizeCache->{{80.51390463489408, 
-                   105.8356977527512}, {-123.30823362134196`, \
--40.73543272313442}}],
+                  ImageSizeCache->{{80.41703544169467, 
+                   105.68807128651972`}, {-123.37972407333221`, \
+-40.98686987379266}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -1477,9 +1443,9 @@ Cell[BoxData[
                     1.824364021618429, -13.32}}, {{2.175635978381571, 0.02}, {
                     1.824364021618429, 0.02}}}]}, {}}]},
                   
-                  ImageSizeCache->{{112.53092956392635`, 
-                   137.85272268178352`}, {-125.41002331769677`, \
--40.11725928303005}}],
+                  ImageSizeCache->{{112.36181254101149`, 
+                   137.63284838583655`}, {-125.47677098848182`, \
+-40.370091369336876`}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -1573,9 +1539,9 @@ Cell[BoxData[
                     2.824364021618429, -5.99}}, {{3.175635978381571, 5.12}, {
                     2.824364021618429, 5.12}}}]}, {}}]},
                   
-                  ImageSizeCache->{{144.54795449295864`, 
-                   169.86974761081578`}, {-156.9368687630187, \
--85.42937244267902}}],
+                  ImageSizeCache->{{144.3065896403283, 
+                   169.5776254851534}, {-156.93247471572568`, \
+-85.57995574594428}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -1668,9 +1634,9 @@ Cell[BoxData[
                     2.44}}, {{4.175635978381571, 9.77}, {3.824364021618429, 
                     9.77}}}]}, {}}]},
                   
-                  ImageSizeCache->{{176.5649794219909, 
-                   201.88677253984807`}, {-185.681933727871, \
--137.54139344347587`}}],
+                  ImageSizeCache->{{176.25136673964514`, 
+                   201.52240258447023`}, {-185.61267517291864`, \
+-137.57438367156504`}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -1764,9 +1730,9 @@ Cell[BoxData[
                     10.15}}, {{5.175635978381571, 16.15}, {4.824364021618429, 
                     16.15}}}]}, {}}]},
                   
-                  ImageSizeCache->{{208.5820043510232, 
-                   233.90379746888036`}, {-225.12139920652865`, \
--185.20256567552138`}}],
+                  ImageSizeCache->{{208.19614383896197`, 
+                   233.46717968378704`}, {-224.96314375719626`, \
+-185.12800636510434`}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -1860,9 +1826,9 @@ Cell[BoxData[
                     15.05}}, {{6.175635978381571, 20.9}, {5.824364021618429, 
                     20.9}}}]}, {}}]},
                   
-                  ImageSizeCache->{{240.59902928005548`, 
-                   265.9208223979126}, {-254.48463761148534`, \
--215.4930642406346}}],
+                  ImageSizeCache->{{240.14092093827878`, 
+                   265.4119567831039}, {-254.260122718845, \
+-215.35015308343674`}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -1955,9 +1921,9 @@ Cell[BoxData[
                     18.1}}, {{7.175635978381571, 22.93}, {6.824364021618429, 
                     22.93}}}]}, {}}]},
                   
-                  ImageSizeCache->{{272.61605420908774`, 
-                   297.9378473269449}, {-267.0335584456037, \
--234.34735416381733`}}],
+                  ImageSizeCache->{{272.08569803759565`, 
+                   297.3567338824207}, {-266.78072635929703`, \
+-234.16189746933748`}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -2050,9 +2016,9 @@ Cell[BoxData[
                     17.58}}, {{8.175635978381571, 21.79}, {7.824364021618429, 
                     21.79}}}]}, {}}]},
                   
-                  ImageSizeCache->{{304.63307913812, 
-                   329.9548722559772}, {-259.9863812284141, \
--231.13285227527467`}}],
+                  ImageSizeCache->{{304.03047513691246`, 
+                   329.3015109817375}, {-259.74945140850133`, \
+-230.9546492461675}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -2146,9 +2112,9 @@ Cell[BoxData[
                     12.98}}, {{9.175635978381571, 17.97}, {8.824364021618429, 
                     17.97}}}]}, {}}]},
                   
-                  ImageSizeCache->{{336.6501040671523, 
-                   361.9718971850095}, {-236.37215581642783`, \
--202.69687403047453`}}],
+                  ImageSizeCache->{{335.97525223622927`, 
+                   361.2462880810544}, {-236.18851253829118`, \
+-202.58283804120242`}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -2242,9 +2208,9 @@ Cell[BoxData[
                      7.14}}, {{10.175635978381571`, 13.52}, {
                     9.824364021618429, 13.52}}}]}, {}}]},
                   
-                  ImageSizeCache->{{368.6671289961846, 
-                   393.98892211404177`}, {-208.8634377317842, \
--166.59554512838037`}}],
+                  ImageSizeCache->{{367.92002933554613`, 
+                   393.1910651803712}, {-208.74186909000971`, \
+-166.5629733809859}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -2338,9 +2304,9 @@ Cell[BoxData[
                     10.824364021618429`, 0.55}}, {{11.175635978381571`, 
                     6.96}, {10.824364021618429`, 6.96}}}]}, {}}]},
                   
-                  ImageSizeCache->{{400.6841539252169, 
-                   426.00594704307406`}, {-168.31126006093876`, \
--125.85791542550362`}}],
+                  ImageSizeCache->{{399.86480643486294`, 
+                   425.135842279688}, {-168.28119919771174`, \
+-125.91726993735115`}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -2434,9 +2400,9 @@ Cell[BoxData[
                     11.824364021618429`, -13.31}}, {{12.175635978381571`, 
                     4.24}, {11.824364021618429`, 4.24}}}]}, {}}]},
                   
-                  ImageSizeCache->{{432.7011788542492, 
-                   458.0229719721063}, {-151.49694249010037`, \
--40.17907662704049}}],
+                  ImageSizeCache->{{431.80958353417975`, 
+                   457.0806193790049}, {-151.504823876515, \
+-40.43176921978245}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -2607,7 +2573,7 @@ Cell[BoxData[
           GridLines->{None, Automatic},
           GridLinesStyle->Directive[
             GrayLevel[0.5, 0.4]],
-          ImagePadding->{{38.99999999999999, 20.}, {0.5, 3.}},
+          ImagePadding->{{39., 21.}, {1.5, 3.999999999999943}},
           ImageSize->Large,
           PlotRange->Automatic,
           PlotRangePadding->{{
@@ -2657,10 +2623,8 @@ Cell[BoxData[
              12.351271956763142`, 
               FormBox[
                TemplateBox[{0}, "Spacer1"], TraditionalForm], {0, 0}}}, 
-            All}], {302.4, -177.9937887599697}, ImageScaled[{0.5, 0.5}], {576, 355.9875775199394},
-         
-         BaseStyle->{Graphics3DBoxOptions -> {SphericalRegion -> False}}], 
-        InsetBox[
+            All}], {302.4, -177.9937887599697}, 
+         ImageScaled[{0.5, 0.5}], {576, 355.9875775199394}], InsetBox[
          GraphicsBox[{
            {Opacity[0], 
             PointBox[{{0.5428784014042598, -0.9824999999999999}, {
@@ -2702,9 +2666,9 @@ Cell[BoxData[
                     1.42}}, {{1.175635978381571, 17.07}, {0.8243640216184289, 
                     17.07}}}]}, {}}]},
                   
-                  ImageSizeCache->{{80.51390463489406, 
-                   105.83569775275122`}, {-246.61133402536984`, \
--65.3108866771122}}],
+                  ImageSizeCache->{{80.41703544169465, 
+                   105.68807128651973`}, {-246.92489448691765`, \
+-66.02717712855326}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -2797,9 +2761,9 @@ Cell[BoxData[
                     1.1}}, {{2.175635978381571, 10.1}, {1.824364021618429, 
                     10.1}}}]}, {}}]},
                   
-                  ImageSizeCache->{{112.53092956392635`, 
-                   137.85272268178352`}, {-167.12571223892417`, \
--61.66161853196692}}],
+                  ImageSizeCache->{{112.36181254101149`, 
+                   137.63284838583655`}, {-167.61863551386216`, \
+-62.38614371802561}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -2878,7 +2842,6 @@ Cell[BoxData[
                     1.1429268292682928`}}], {}, {{}, {}}, {}, {
                     GrayLevel[0], 
                     GrayLevel[1], 
-                    
                     LineBox[{{3.351271956763142, 4.571707317073171}, {
                     2.648728043236858, 4.571707317073171}}]}, {}, {
                     GrayLevel[0], 
@@ -2893,9 +2856,9 @@ Cell[BoxData[
                     0.}}, {{3.175635978381571, 12.49}, {2.824364021618429, 
                     12.49}}}]}, {}}]},
                   
-                  ImageSizeCache->{{144.54795449295864`, 
-                   169.86974761081578`}, {-194.381183697978, \
--49.11725928303002}}],
+                  ImageSizeCache->{{144.3065896403283, 
+                   169.5776254851534}, {-194.81260379874055`, \
+-49.87009136933679}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -2988,9 +2951,9 @@ Cell[BoxData[
                     0.}}, {{4.175635978381571, 14.07}, {3.824364021618429, 
                     14.07}}}]}, {}}]},
                   
-                  ImageSizeCache->{{176.5649794219909, 
-                   201.88677253984807`}, {-212.39944516463282`, \
--49.11725928303002}}],
+                  ImageSizeCache->{{176.25136673964514`, 
+                   201.52240258447023`}, {-212.79020626322088`, \
+-49.87009136933679}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -3083,9 +3046,9 @@ Cell[BoxData[
                     0.}}, {{5.175635978381571, 14.7}, {4.824364021618429, 
                     14.7}}}]}, {}}]},
                   
-                  ImageSizeCache->{{208.5820043510232, 
-                   233.90379746888036`}, {-219.5839418253876, \
--49.11725928303002}}],
+                  ImageSizeCache->{{208.19614383896197`, 
+                   233.46717968378704`}, {-219.95849079019717`, \
+-49.87009136933679}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -3178,9 +3141,9 @@ Cell[BoxData[
                     0.37}}, {{6.175635978381571, 16.44}, {5.824364021618429, 
                     16.44}}}]}, {}}]},
                   
-                  ImageSizeCache->{{240.59902928005548`, 
-                   265.9208223979126}, {-239.4268373646151, \
--53.336725575854246`}}],
+                  ImageSizeCache->{{240.14092093827878`, 
+                   265.4119567831039}, {-239.75660995994133`, \
+-54.08003625025938}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -3264,7 +3227,6 @@ Cell[BoxData[
                     6.648728043236858, 5.867804878048782}}]}, {}, {
                     GrayLevel[0], 
                     GrayLevel[0.5], 
-                    
                     LineBox[{{{7., 1.7894512195121954`}, {7., 0.43}}, {{7., 
                     12.274451219512196`}, {7., 14.41}}}]}, {
                     GrayLevel[0], 
@@ -3274,9 +3236,9 @@ Cell[BoxData[
                     0.43}}, {{7.175635978381571, 14.41}, {6.824364021618429, 
                     14.41}}}]}, {}}]},
                   
-                  ImageSizeCache->{{272.61605420908774`, 
-                   297.9378473269449}, {-216.2767925688497, \
--54.02096335306899}}],
+                  ImageSizeCache->{{272.08569803759565`, 
+                   297.3567338824207}, {-216.6588042619065, \
+-54.76273001473331}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -3370,9 +3332,9 @@ Cell[BoxData[
                     0.}}, {{8.175635978381571, 16.65}, {7.824364021618429, 
                     16.65}}}]}, {}}]},
                   
-                  ImageSizeCache->{{304.63307913812, 
-                   329.9548722559772}, {-241.82166958486664`, \
--49.11725928303002}}],
+                  ImageSizeCache->{{304.03047513691246`, 
+                   329.3015109817375}, {-242.1460381356001, \
+-49.87009136933679}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -3464,9 +3426,9 @@ Cell[BoxData[
                     0.28}}, {{9.175635978381571, 19.65}, {8.824364021618429, 
                     19.65}}}]}, {}}]},
                   
-                  ImageSizeCache->{{336.6501040671523, 
-                   361.9718971850095}, {-276.03355844560366`, \
--52.31036891003214}}],
+                  ImageSizeCache->{{335.97525223622927`, 
+                   361.2462880810544}, {-276.28072635929686`, \
+-53.05599560354847}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -3560,9 +3522,9 @@ Cell[BoxData[
                     0.4}}, {{10.175635978381571`, 18.55}, {9.824364021618429, 
                     18.55}}}]}, {}}]},
                   
-                  ImageSizeCache->{{368.6671289961846, 
-                   393.98892211404177`}, {-263.48919919666673`, \
--53.67884446446163}}],
+                  ImageSizeCache->{{367.92002933554613`, 
+                   393.1910651803712}, {-263.7646740106081, \
+-54.421383132496345`}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -3651,14 +3613,13 @@ Cell[BoxData[
                      15.050548780487805`}, {11., 17.18}}}]}, {
                     GrayLevel[0], 
                     GrayLevel[0.5], 
-                    
                     LineBox[{{{11.175635978381571`, 1.91}, {
                     10.824364021618429`, 1.91}}, {{11.175635978381571`, 
                     17.18}, {10.824364021618429`, 17.18}}}]}, {}}]},
                   
-                  ImageSizeCache->{{400.6841539252169, 
-                   426.00594704307406`}, {-247.86576995026354`, \
--70.89882852436591}}],
+                  ImageSizeCache->{{399.86480643486294`, 
+                   425.135842279688}, {-248.1764997217865, \
+-71.60250953842373}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -3752,9 +3713,9 @@ Cell[BoxData[
                     11.824364021618429`, 2.08}}, {{12.175635978381571`, 
                     18.2}, {11.824364021618429`, 18.2}}}]}, {}}]},
                   
-                  ImageSizeCache->{{432.7011788542492, 
-                   458.0229719721063}, {-259.4978121629141, \
--72.83750222647436}}],
+                  ImageSizeCache->{{431.80958353417975`, 
+                   457.0806193790049}, {-259.78229371784346`, \
+-73.53680853776655}}],
                  "DelayedMouseEffectStyle"],
                 StyleBox[
                  TagBox[
@@ -3937,7 +3898,7 @@ Cell[BoxData[
           GridLines->{None, Automatic},
           GridLinesStyle->Directive[
             GrayLevel[0.5, 0.4]],
-          ImagePadding->{{38.99999999999999, 20.}, {16., 0.5}},
+          ImagePadding->{{39., 21.}, {17., 0.5}},
           ImageSize->Large,
           PlotRange->Automatic,
           PlotRangePadding->{{
@@ -3999,19 +3960,16 @@ Cell[BoxData[
              12.351271956763142`, 
               FormBox[
                TemplateBox[{0}, "Spacer1"], TraditionalForm], {0, 0}}}, 
-            All}], {302.4, -533.9813662799091}, ImageScaled[{0.5, 0.5}], {576, 355.9875775199394},
-         
-         BaseStyle->{
-          Graphics3DBoxOptions -> {SphericalRegion -> False}}]}, {}},
+            All}], {302.4, -533.9813662799091}, 
+         ImageScaled[{0.5, 0.5}], {576, 355.9875775199394}]}, {}},
       DisplayFunction->Identity,
       ImagePadding->{{0., 0.}, {0., 0.}},
       ImageSize->{
         UpTo[576], 
         UpTo[700]},
       PlotRange->{{0, 604.8}, {-711.9751550398788, 0}},
-      PlotRangePadding->{6, 5}], {302.4, -391}, ImageScaled[{0.5, 0.5}], {576, 674},
-     
-     BaseStyle->{Graphics3DBoxOptions -> {SphericalRegion -> False}}]}, 
+      PlotRangePadding->{6, 5}], {302.4, -391}, 
+     ImageScaled[{0.5, 0.5}], {576, 674}]}, 
    {GrayLevel[0.5], 
     StyleBox[{LineBox[{{0, 0}, {0, -54}}], LineBox[{{0, -54}, {0, -728}}], 
       LineBox[{{604.8, 0}, {604.8, -54}}], 
@@ -4023,10 +3981,10 @@ Cell[BoxData[
     UpTo[700]},
   PlotRange->{{0, 604.8}, {-728, 0}},
   PlotRangePadding->{6, 5}]], "Output",
- CellChangeTimes->{3.909009191781218*^9},
+ CellChangeTimes->{3.909009191781218*^9, 3.910479760098053*^9},
  CellTags->"DefaultContent",
- CellLabel->"Out[1]=",
- CellID->979262396,ExpressionUUID->"e22ad4e5-fa9f-4818-bedf-8a62008012d2"]
+ CellLabel->"Out[59]=",
+ CellID->1233525051,ExpressionUUID->"eb51a0e2-6c1b-4a8d-b4b8-5811f738e371"]
 }, Open  ]]
 }, Open  ]],
 
@@ -5837,6 +5795,7 @@ Cell[BoxData[
                     22.95128048780488}, {5., 27.46}}}]}, {
                     GrayLevel[0], 
                     GrayLevel[0.5], 
+                    
                     LineBox[{{{5.175635978381571, 0.74}, {4.824364021618429, 
                     0.74}}, {{5.175635978381571, 27.46}, {4.824364021618429, 
                     27.46}}}]}, {}}]},
@@ -6125,6 +6084,7 @@ Cell[BoxData[
                     LineBox[{{{8.175635978381571, 0.55}, {7.824364021618429, 
                     0.55}}, {{8.175635978381571, 43.71}, {7.824364021618429, 
                     43.71}}}]}, {}}]},
+                    
                     ImageSizeCache->{{305.65911915019564`, 
                     331.4884849983735}, {-278.56187930867145`, \
 -49.3686727366229}}],
@@ -6220,8 +6180,9 @@ Cell[BoxData[
                     1.22}}, {{9.175635978381571, 24.15}, {8.824364021618429, 
                     24.15}}}]}, {}}]},
                     
-                    ImageSizeCache->{{338.39862237638243`, 364.2279882245603},
-                     {-175.97394867870776`, -52.88267649542021}}],
+                    ImageSizeCache->{{338.39862237638243`, 
+                    364.2279882245603}, {-175.97394867870776`, \
+-52.88267649542021}}],
                    "DelayedMouseEffectStyle"],
                   StyleBox[
                    TagBox[
@@ -8360,7 +8321,6 @@ Cell[BoxData[
                     LineBox[{{{3.175635978381571, 0.}, {2.824364021618429, 
                     0.}}, {{3.175635978381571, 12.42}, {2.824364021618429, 
                     12.42}}}]}, {}}]},
-                    
                     ImageSizeCache->{{141.44433272452244`, 
                     167.37521311876446`}, {-128.62546486891983`, \
 -46.08327424734871}}],
@@ -8456,6 +8416,7 @@ Cell[BoxData[
                     9.83}}}]}, {}}]},
                     
                     ImageSizeCache->{{174.3283316101401, 
+                    
                     200.25921200438216`}, {-112.00238536354333`, \
 -46.08327424734871}}],
                    "DelayedMouseEffectStyle"],
@@ -9858,7 +9819,6 @@ Cell[BoxData[
                     8.01}}}]}, {}}]},
                     
                     ImageSizeCache->{{94.79650605729458, 
-                    
                     110.70739505188727`}, {-85.86467949965186, \
 -55.892296133964734`}}],
                    "DelayedMouseEffectStyle"],
@@ -12382,7 +12342,6 @@ Cell[BoxData[
                     LineBox[{{{1.175635978381571, -1.77}, {
                     0.8243640216184289, -1.77}}, {{1.175635978381571, 8.07}, {
                     0.8243640216184289, 8.07}}}]}, {}}]},
-                    
                     ImageSizeCache->{{57.55339109190654, 
                     73.46428008649924}, {-86.15141143177448, \
 -36.29894743891935}}],
@@ -13888,6 +13847,7 @@ Cell[BoxData[
                     10.281858974358974`}, {3., 12.42}}}]}, {
                     GrayLevel[0], 
                     GrayLevel[0.5], 
+                    
                     LineBox[{{{3.175635978381571, 0.}, {2.824364021618429, 
                     0.}}, {{3.175635978381571, 12.42}, {2.824364021618429, 
                     12.42}}}]}, {}}]},
@@ -14268,6 +14228,7 @@ Cell[BoxData[
                     LineBox[{{{7.175635978381571, 0.}, {6.824364021618429, 
                     0.}}, {{7.175635978381571, 10.99}, {6.824364021618429, 
                     10.99}}}]}, {}}]},
+                    
                     ImageSizeCache->{{169.28273598807064`, 
                     185.19362498266338`}, {-67.70479370692635, \
 -29.86321175965189}}],
@@ -14363,7 +14324,6 @@ Cell[BoxData[
                     10.45}}}]}, {}}]},
                     
                     ImageSizeCache->{{187.90429347076469`, 
-                    
                     203.8151824653574}, {-65.98440211419066, \
 -29.86321175965189}}],
                    "DelayedMouseEffectStyle"],
@@ -16294,7 +16254,7 @@ Cell["Additional information for the reviewer.", "Text",
 }, Open  ]]
 },
 WindowSize->{1600, 1747},
-WindowMargins->{{Automatic, 0}, {0, Automatic}},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules->{
  "ResourceType" -> "Function", "ResourceCreateNotebook" -> True, 
   "TemplateVersion" -> "1.6.4", "CreationTimestamp" -> 
@@ -16344,7 +16304,7 @@ WyabbVsUI30dbWyR5mC4Y6npzAQV7A7CHW8e0ORJGTUV01ufdzMGR2GbTwVmCj3d8A9cd0NNHoiRcl\
   "SubmissionReviewData" -> {"Review" -> False}, "ToolsOpen" -> False, 
   "AutoUpdate" -> True},
 CreateCellID->True,
-FrontEndVersion->"13.2 for Mac OS X ARM (64-bit) (November 18, 2022)",
+FrontEndVersion->"13.1 for Mac OS X x86 (64-bit) (June 21, 2022)",
 StyleDefinitions->Notebook[{
    Cell[
     StyleData[StyleDefinitions -> "Default.nb"]], 
@@ -18634,7 +18594,7 @@ later."]]]]],
    Cell[
     StyleData["DockedCell"], CellFrameColor -> GrayLevel[0.75], Background -> 
     GrayLevel[0.9]]}, Visible -> False, FrontEndVersion -> 
-  "13.2 for Mac OS X ARM (64-bit) (November 18, 2022)", StyleDefinitions -> 
+  "13.1 for Mac OS X x86 (64-bit) (June 21, 2022)", StyleDefinitions -> 
   "PrivateStylesheetFormatting.nb"],
 ExpressionUUID->"1f3dcf62-dad0-4bbd-96c1-6c53bd93f20a"
 ]
